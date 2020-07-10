@@ -1,0 +1,82 @@
+
+
+.flashCard{
+  max-width: 300px;
+  max-height: 400px; 
+}
+
+.hideThisSide{
+  display: none
+}
+
+.answerText{
+  background-color: #c2eef0;
+}
+
+.questionText{
+  background-color: #d4d1fa;
+
+}
+
+.formArea{
+background-color: grey;
+}
+
+.formElement{
+  margin-bottom: 5px;
+}
+
+
+#flip{
+  color: white; 
+  background-color: black; 
+  border: 0; 
+  /* float:right;  */
+
+
+}
+.flipBtnArea{
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+
+#submitBtn:hover{
+
+
+}
+#delBtn{
+  font-size: 10px; 
+  margin-top:0; 
+  border-radius: 3px;
+  padding: "0,0";
+  background-color:rgb(204, 126, 126); 
+  display: inline-block
+
+
+}
+
+.cardList{
+  flex-direction: column; 
+  display: grid; 
+  grid-gap: 20px; 
+  list-style: none; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.questionHeader{
+  color: #949393; 
+  font-size: small;
+
+}
+
+.answerHeader{
+  color: #949393; 
+  font-size: small;
+}
+
